@@ -1,0 +1,27 @@
+body{
+   font-family: sans-serif;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+   min-height: 100vh;
+   transition: background-color 0.3s;
+}
+
+#cambiarColor{
+
+
+    padding: 10px 20px;
+    border:none;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+#cambiarColor:hover{
+    background-color: darkslateblue;
+}
